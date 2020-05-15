@@ -4,11 +4,19 @@
         <meta charset="utf-8" />
         <title>Louisiana Adventures- Home</title>
         <meta name="viewport" content="width=device-width, initial scale=1">
+        <link href="css/index/grid.flex.index.css" type="text/css" rel="stylesheet" />
     </head>
+
     <body>
-        <header>
-            <h1>Louisiana Adventures</h1>
-            <nav>
+        <div class="flex-wrapper">
+
+        <div class="wrapper">
+
+            <header class="main-head">
+                <h1>Louisiana Adventures</h1>
+            </header>
+
+            <nav class="main-nav">
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Book a tour</a></li>
@@ -16,32 +24,51 @@
                     <li><a href="#">Contact Us</a></li>
                 </ul>
             </nav>
-        </header>
-        <main>
-            <aside>
-                <img src="img/avatar.png" alt="My avatar">
-                <h2><b>Kostadin Lalchev</b></h2>
-                <h3>Founder and CEO of Louisiana Adventures</h3>
-                <button type="button">More about me</button>
+
+            <aside class="side">
+                <img src="img/avatar.png" alt="My avatar" class="avatar">
+                <hgroup>
+                    <h2>Kostadin Lalchev</h2>
+                    <h3>Founder and CEO of Louisiana Adventures</h3>
+                </hgroup>
+                <p> I was born and raised in Bulgaria. I moved to Louisiana in 2010 for my MBA degree at Southeastern Louisiana University. I fell in love with the state and shortly after graduating I started the Louisiana Adventures Ltd. so I can share my love and passion with people. What started as a hobby, became a side job and eventually a full- time business with a staff of 10 and growing. Louisiana adventures is a dream come true for me and...</p>
+                <button type="button" class="about-me">More About Me</button>
             </aside>
-            <section>
+
+            <section class="main-section">
                 <figure>
-                    <img src="img/640px-Greetings_from_New_Orleans_(NBY_8983).jpg" alt="Greetings from New Orleans, Louisiana">
-                    <figcaption>Greetings from New Orleans - by Unknown Author, via Wikimedia Commons -
+                    <img src="img/640px-Greetings_from_New_Orleans_(NBY_8983).jpg" alt="Greetings from New Orleans, Louisiana" class="welcome-picture">
+                    <figcaption>Wikimedia Commons -
                         <a href="https://commons.wikimedia.org/w/index.php?curid=67019948">Source</a>
                     </figcaption>
                 </figure>
                 <h2>Welcome to the blog of Louisiana Adventures Ltd.</h2>
-                <p>Louisiana Adventures Ltd. is a small company found in 2017 and headquartered in New Orleans, Louisiana. We organize private tours of small groups in different parts of Louisiana. Our goal is to introduce tourists to the culture, landmarks, cuisine and vibes of the state of Louisiana. Our private tours have been featured in many magazines and newspapers including National Geographic, Birds & Blooms, Gambit, The advocate and many more. Come and experience one of our many tours in New Orleans, Baton Rouge, Covington and Lafayette firsthand- it wil be an experience of a lifetime.</p>
+                <p>Louisiana Adventures Ltd. is a small company found in 2017 and headquartered in New Orleans, Louisiana. We organize private tours of small groups in different parts of Louisiana. Our goal is to introduce tourists to the culture, landmarks, cuisine and vibes of the state of Louisiana. Our private tours have been featured in many magazines and newspapers including National Geographic, Birds & Blooms, Gambit, The Advocate and many more. Come and experience one of our many tours in New Orleans, Baton Rouge, Covington and Lafayette firsthand- it wil be an experience of a lifetime.</p>
+                <button type="button" class="about-company">More About the Company</button>
             </section>
-            <article>
-                <h2>New Orleans Louisiana- French Quarter Tour</h2>
-                <p>Our latest tour featured one of the biggest attractions in New Orleans- the French Quarter. The French Quarter is the city’s historic heart, famous for its vibrant nightlife and colorful buildings with cast-iron balconies. Crowd-pleasing Bourbon Street features jazz clubs, Cajun eateries and raucous bars serving potent cocktails. Our tour of the French Quarter started at...</p>
-                <a href="blog-post.html">Read more >>></a>
+
+            <article class="content">
+                    <h2>New Orleans Louisiana- French Quarter Tour</h2>
+                    <p>Our latest tour featured one of the biggest attractions in New Orleans- the French Quarter. The French Quarter is the city’s historic heart, famous for its vibrant nightlife and colorful buildings with cast-iron balconies. Crowd-pleasing Bourbon Street features jazz clubs, Cajun eateries and raucous bars serving potent cocktails. Our tour of the French Quarter started at...</p>
+                    <a href="blog-post.html">Read more >>></a>
             </article>
-        </main>
-        <footer>
-            <p>Copyright 2017 by Louisiana Adventures. All rights reserved.</p>
-        </footer>
+
+            <div class="ad">
+                <figure>
+                    <a href="https://www.yatra.com/offer/dom/listing/domestic-flight-deals"><img src="img/8466472575_dcdec2dcb6_m.jpg" alt="Yatra.com, promo offer"></a>
+                    <figcaption>Yatra.com, via Flickr -
+                        <a href="https://www.flickr.com/search/?text=travel%20coupon">Source</a>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <footer class="main-footer">
+                <p>Copyright 2017 by Louisiana Adventures. All rights reserved.</p>
+            </footer>
+
+        </div>
+        </div>
+
     </body>
+
 </html>
