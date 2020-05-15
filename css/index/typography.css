@@ -1,0 +1,24 @@
+html {
+    font-family: 'Montserrat', sans-serif, arial;
+    font: 18px bold;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+
+p {
+    text-align: left;
+    margin-top: -5px;
+}
+
+h1 {
+    text-align: center;
+}
+
+footer {
+    text-decoration: underline;
+    font-size: 0.8em;
+}
+
+h2,h3,h4,h5,h6 {
+    text-align: left;
+}
