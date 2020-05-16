@@ -1,0 +1,42 @@
+ul {
+list-style-type: none;
+}
+
+.nav-links {
+    background-color: darkgreen;
+    color: #fff;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+}
+
+
+.nav-links:hover {
+    color: yellowgreen;
+}
+
+.about-me, .about-company {
+    background-color: darkgreen;
+    color: #fff;
+    padding: 5px;
+    border-radius: 10px;;
+}
+
+.about-me:hover {
+    color: yellowgreen;
+}
+
+.about-company:hover {
+    color: yellowgreen;
+}
+
+.article-link {
+    color:darkgreen;
+}
+
+.article-link:hover {
+    color: #fff;
+}
+
+
+

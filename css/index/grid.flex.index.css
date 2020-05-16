@@ -57,6 +57,7 @@
     .welcome-picture {
         max-width: 100%;
         border: 1px solid blue;
+        height: auto;
     }
     figure {
         margin: 0px;
@@ -66,9 +67,9 @@
         max-height: 200px;
         border: 1px solid aqua;
     }
-    .ad {
+    .promo {
         max-width: 100%;
-        max-height: 300px;
+        height: auto;
     }
     aside {
         display: flex;
@@ -93,7 +94,12 @@
         align-items: flex-start;
         justify-content: space-between;
     }
+
     .about-company {
+        align-self: stretch;
+    }
+
+    .article-link {
         align-self: stretch;
     }
 
@@ -107,6 +113,10 @@
         justify-content: center;
         align-items: center;
     }
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+    }
 
     /* Medium Screens */
     @media (min-width: 600px) and (max-width: 900px) {
@@ -117,12 +127,31 @@
                 "header  header"
                 "nav     nav"
                 "sidebar section"
-                "ads     article"
+                "sidebar ads"
+                "article article"
                 "footer  footer";
         }
-        nav ul {
+
+        section {
             display: flex;
-            justify-content: space-around;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: space-between;
+        }
+
+        .one {
+            flex: 1.2 1 0;
+            border: 1px solid black;
+        }
+
+        .two {
+            flex: 2 1 0;
+            border: 1px solid red;
+        }
+
+        .three {
+            flex: 0.25 1 0;
+            border: 1px solid yellow;
         }
     }
 
@@ -139,8 +168,27 @@
             "footer  footer  footer";
             grid-template-columns: 1fr 2fr 1fr;
         }
-        nav ul {
+
+        section {
             display: flex;
-            justify-content: space-around;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: space-between;
         }
-}
+
+        .one {
+            flex: 1.2 1 0;
+            border: 1px solid black;
+        }
+
+        .two {
+            flex: 2 1 0;
+            border: 1px solid red;
+        }
+
+        .three {
+            flex: 0.25 1 0;
+            border: 1px solid yellow;
+        }
+
+    }

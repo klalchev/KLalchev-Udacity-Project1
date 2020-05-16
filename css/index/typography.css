@@ -5,20 +5,31 @@ html {
     letter-spacing: 0.02em;
 }
 
+figcaption {
+    font-size: 0.7em;
+}
+
 p {
     text-align: left;
     margin-top: -5px;
 }
 
-h1 {
-    text-align: center;
-}
-
 footer {
     text-decoration: underline;
     font-size: 0.8em;
+    margin: 0;
+}
+
+.footer-paragraph {
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 h2,h3,h4,h5,h6 {
     text-align: left;
+}
+
+.article-link {
+    font-size: 1.1em;
 }
