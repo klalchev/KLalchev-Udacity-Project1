@@ -1,20 +1,27 @@
 body {
-    background-color: lightgreen;
+    background-color: #9DF19D;
 }
 
 p {
     background-color: rgb(152, 251, 197);
 }
 
-.footer-paragraph {
-    background-color: lightgreen;
+.card-paragraph {
+    margin-top: -20px;
 }
 
 h1,h2,h3,h4,h5,h6 {
-    color: darkgreen;
+    color: #005200;
 }
 
-.avatar {
-    box-shadow: 5px 5px olivedrab;
-    background-color: rgb(152, 251, 197);
+.card-heading {
+    color: black;
+}
+
+.card-container {
+    background-color: white;
+}
+
+span{
+    color: #862222;
 }

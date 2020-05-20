@@ -1,7 +1,5 @@
 html {
-    font-family: 'Montserrat', sans-serif, arial;
-    font: 18px bold;
-    line-height: 24px;
+    font: italic small-caps bold 16px/24px 'Montserrat', sans-serif, arial;
     letter-spacing: 0.02em;
 }
 
@@ -9,15 +7,9 @@ figcaption {
     font-size: 0.7em;
 }
 
-p {
-    text-align: left;
-    margin-top: -5px;
-}
-
 footer {
     text-decoration: underline;
     font-size: 0.8em;
-    margin: 0;
 }
 
 .footer-paragraph {
@@ -30,6 +22,14 @@ h2,h3,h4,h5,h6 {
     text-align: left;
 }
 
+.card-heading {
+font-size: 1.2em;
+}
+
 .article-link {
-    font-size: 1.1em;
+    font-size: 1.05em;
+}
+
+.card-paragraph {
+    font-size: 0.8em;
 }

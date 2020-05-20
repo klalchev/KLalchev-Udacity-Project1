@@ -1,8 +1,7 @@
-.flex-wrapper{
+.flex-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid brown;
     padding: 5px;
 }
 
@@ -21,7 +20,7 @@
 
     .main-head {
         grid-area: header;
-        border: 1px solid green;
+        border: 1px solid black;
     }
 
     .main-nav {
@@ -31,32 +30,32 @@
 
     .side {
         grid-area: sidebar;
-        border: 1px solid red;
+        border: 1px solid black;
     }
 
     .main-section {
         grid-area: section;
-        border: 1px solid blue;
+        border: 1px solid black;
     }
 
     .content {
         grid-area: article;
-        border: 1px solid yellow;
+        border: 1px solid black;
     }
 
     .ad {
         grid-area: ads;
-        border: 1px solid purple;
+        border: 1px solid black;
     }
 
     .main-footer {
         grid-area: footer;
-        border: 1px solid pink;
+        border: 1px solid black;
     }
 
     .welcome-picture {
         max-width: 100%;
-        border: 1px solid blue;
+        border: 1px solid black;
         height: auto;
     }
     figure {
@@ -65,7 +64,7 @@
     .avatar {
         max-width: 100%;
         max-height: 200px;
-        border: 1px solid aqua;
+        border: 1px solid black;
     }
     .promo {
         max-width: 100%;
@@ -79,6 +78,7 @@
     }
     .about-me {
         align-self: stretch;
+        text-align: center;
     }
 
     article {
@@ -97,13 +97,14 @@
 
     .about-company {
         align-self: stretch;
+        text-align: center;
     }
 
     .article-link {
         align-self: stretch;
     }
 
-    .avatar {
+    .card-container {
         align-self: center;
     }
 
@@ -113,9 +114,10 @@
         justify-content: center;
         align-items: center;
     }
-    nav ul {
+
+    .card-container {
         display: flex;
-        justify-content: space-around;
+        flex-flow: column wrap;
     }
 
     /* Medium Screens */
@@ -146,12 +148,17 @@
 
         .two {
             flex: 2 1 0;
-            border: 1px solid red;
+            border: 1px solid black;
         }
 
         .three {
             flex: 0.25 1 0;
-            border: 1px solid yellow;
+            border: 1px solid black;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: space-evenly;
         }
     }
 
@@ -159,6 +166,7 @@
     @media (min-width: 901px) {
         .wrapper {
             display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
             grid-template-areas:
             "header  header  header"
             "nav     nav     nav"
@@ -166,7 +174,6 @@
             "sidebar section article"
             "sidebar section ads"
             "footer  footer  footer";
-            grid-template-columns: 1fr 2fr 1fr;
         }
 
         section {
@@ -191,4 +198,8 @@
             border: 1px solid yellow;
         }
 
+        nav ul {
+            display: flex;
+            justify-content: space-evenly;
+        }
     }
