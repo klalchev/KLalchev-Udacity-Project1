@@ -1,0 +1,206 @@
+/*use flexbox to center grid in the viewport*/
+.flex-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-areas:
+    "header"
+    "nav"
+    "sidebar"
+    "section"
+    "article"
+    "ads"
+    "footer";
+    grid-gap: 5px;
+}
+
+.main-head {
+    grid-area: header;
+    border: 1px solid black;
+}
+
+.main-nav {
+    grid-area: nav;
+    border: 1px solid black;
+}
+
+.side {
+    grid-area: sidebar;
+    border: 1px solid black;
+}
+
+.main-section {
+    grid-area: section;
+    border: 1px solid black;
+}
+
+.content {
+    grid-area: article;
+    border: 1px solid black;
+}
+
+.ad {
+    grid-area: ads;
+    border: 1px solid black;
+}
+
+.main-footer {
+    grid-area: footer;
+    border: 1px solid black;
+}
+
+/*use max-width, so the picture would adjust itself based on the viewport woidth*/
+.welcome-picture {
+    max-width: 100%;
+    height: auto;
+}
+
+figure {
+    margin: 0px;
+}
+
+.avatar {
+    max-width: 100%;
+    max-height: 200px;
+    border: 1px solid black;
+}
+
+.promo {
+    max-width: 100%;
+    height: auto;
+}
+
+.side {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.about-me {
+    align-self: stretch;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.about-company {
+    align-self: stretch;
+    text-align: center;
+}
+
+.article-link {
+    align-self: stretch;
+}
+
+.card-container {
+    align-self: center;
+}
+
+.ad {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+    /* Medium Screens */
+    @media (min-width: 600px) and (max-width: 900px) {
+        .wrapper {
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+            grid-template-areas:
+                "header  header"
+                "nav     nav"
+                "sidebar section"
+                "sidebar ads"
+                "article article"
+                "footer  footer";
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: space-between;
+        }
+
+        .one {
+            flex: 1.2 1 0;
+        }
+
+        .two {
+            flex: 2 1 0;
+        }
+
+        .three {
+            flex: 0.25 1 0;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: space-evenly;
+        }
+    }
+
+    /* Large Screens */
+    @media (min-width: 901px) {
+        .wrapper {
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            grid-template-areas:
+            "header  header  header"
+            "nav     nav     nav"
+            "sidebar section article"
+            "sidebar section article"
+            "sidebar section ads"
+            "footer  footer  footer";
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: space-between;
+        }
+
+        .one {
+            flex: 1.2 1 0;
+            border-bottom: 1px solid black;
+        }
+
+        .two {
+            flex: 2 1 0;
+        }
+
+        .three {
+            flex: 0.25 1 0;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: space-evenly;
+        }
+    }

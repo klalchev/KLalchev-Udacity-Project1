@@ -7,23 +7,23 @@ figcaption {
     font-size: 0.7em;
 }
 
-footer {
-    text-decoration: underline;
-    font-size: 0.8em;
-}
-
 .footer-paragraph {
-    display: block;
     margin-top: auto;
     margin-bottom: auto;
+    text-decoration: underline;
+    font-size: 0.6em;
 }
 
-h2,h3,h4,h5,h6 {
+h3,h4,h5,h6 {
     text-align: left;
 }
 
+h2 {
+    text-align: center;
+}
+
 .card-heading {
-font-size: 1.2em;
+    font-size: 1.2em;
 }
 
 .article-link {

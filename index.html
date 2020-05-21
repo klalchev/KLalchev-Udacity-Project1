@@ -4,20 +4,18 @@
         <title>Louisiana Adventures: Private Tours </title>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial scale=1">
-        <link href="css/index/grid.flex.index.css" type="text/css" rel="stylesheet" />
-        <link href="css/index/typography.css" type="text/css" rel="stylesheet" />
-        <link href="css/index/colour.css" type="text/css" rel="stylesheet" />
-        <link href="css/index/logo.css" type="text/css" rel="stylesheet" />
-        <link href="css/index/elements.css" type="text/css" rel="stylesheet" />
+        <link href="css/index/main.index.css" type="text/css" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     </head>
 
     <body>
+<!--Empty lines represent landmark breaks-->
         <div class="flex-wrapper">
             <div class="wrapper">
-                <header class="main-head">
-                    <a class="skip-link" href="#main">Skip to content</a>
-                    <img src="img/company-logo.png" alt="Louisiana Adventures logo" class="logo">
+
+                <header class="main-head" aria-label="main-header">
+                    <a class="skip-link" href="#content-start">Skip to content</a>
+                    <img src="img/company-logo.png" alt="company-logo" class="logo">
                     <h1>Louisiana Adventures</h1>
                 </header>
 
@@ -30,49 +28,51 @@
                     </ul>
                 </nav>
 
-                <aside class="side" id="main" aria-label="sidebar">
+                <aside class="side" id="content-start" aria-label="sidebar-main">
                     <div class="card-container">
-                            <img src="img/my-avatar.png" alt="Company founder's avatar" class="avatar">
-                        <div class="card">
+                        <img src="img/my-avatar.png" alt="Company founder's avatar" class="avatar">
+                        <div class="card" aria-label="Company founder's business card">
                             <h2 class="card-heading"><b>Kostadin Lalchev</b></h2>
-                            <p class="card-paragraph">Chief Executive Officer</p>
+                            <p class="card-paragraph" aria-label="title">Chief Executive Officer</p>
                         </div>
                     </div>
-                    <p> I was born and raised in Bulgaria. I moved to Louisiana in 2010 for my MBA degree at Southeastern Louisiana University. I fell in love with the state and shortly after graduating I started the Louisiana Adventures Ltd. so I can share my love and passion with people. What started as a hobby, became a side job and eventually a full- time business with a staff of 10 and growing. Louisiana adventures is a dream come true for me and...</p>
+                    <p aria-label="short bio of the company founder"> I was born and raised in Bulgaria. I moved to Louisiana in 2010 for my MBA degree at Southeastern Louisiana University. I fell in love with the state and shortly after graduating I started the Louisiana Adventures Ltd. so I can share my love and passion with people. What started as a hobby, became a side job and eventually a full- time business with a staff of 10 and growing. Louisiana adventures is a dream come true for me and...</p>
                     <a href="#" class="about-me" aria-label="more information about the company founder">More About Me</a>
                 </aside>
 
-                <section class="main-section" role="main">
+                <main class="main-section" aria-label="main-content">
                     <figure class="one">
                         <img src="img/640px-Greetings_from_New_Orleans_(NBY_8983).jpg" alt="Greetings from New Orleans, Louisiana" class="welcome-picture">
-                        <figcaption>By Unknown Author, via Wikimedia Commons -
+                        <figcaption aria-label=" image author">By Unknown Author, via Wikimedia Commons -
                             <a href="https://commons.wikimedia.org/w/index.php?curid=67019948">Source</a>
                         </figcaption>
                     </figure>
-                    <div class="two">
-                    <h2>Welcome to the blog of Louisiana Adventures Ltd.</h2>
-                    <p>Louisiana Adventures Ltd. is a small company found in 2017 and headquartered in New Orleans, Louisiana. We organize private tours of small groups in different parts of Louisiana. Our goal is to introduce tourists to the culture, landmarks, cuisine and vibes of the state of Louisiana. Our private tours have been featured in many magazines and newspapers including National Geographic, Birds & Blooms, Gambit, The Advocate and many more. Come and experience one of our many tours in New Orleans, Baton Rouge, Covington and Lafayette firsthand- it wil be an experience of a lifetime.</p>
+                    <div class="two" aria-label="main-content-text">
+                        <h2>Welcome to the blog of Louisiana Adventures</h2>
+                        <p aria-label="short description of the company">Louisiana Adventures Ltd. is a small company found in 2017 and headquartered in New Orleans, Louisiana. We organize private tours of small groups in different parts of Louisiana. Our goal is to introduce tourists to the culture, landmarks, cuisine and vibes of the state of Louisiana. Our private tours have been featured in many magazines and newspapers including National Geographic, Birds & Blooms, Gambit, The Advocate and many more. Come and experience one of our many tours in New Orleans, Baton Rouge, Covington and Lafayette firsthand- it wil be an experience of a lifetime.</p>
                     </div>
                     <a href="#"  class="about-company" class="three">More About the Company</a>
-                </section>
+                </main>
 
-                <article class="content" role="region">
-                    <div>
-                        <h2>New Orleans Louisiana- French Quarter Tour</h2>
-                        <p>Our latest tour featured one of the biggest attractions in New Orleans- the French Quarter. The French Quarter is the city’s historic heart, famous for its vibrant nightlife and colorful buildings with cast-iron balconies. Crowd-pleasing Bourbon Street features jazz clubs, Cajun eateries and raucous bars serving potent cocktails. Our tour of the French Quarter started at <span>Cafe Du Monde</span> where we had the New Orleans famous beignets with chicory coffee. It was a breakfast like...</p>
+                <aside class="content" aria-label="sidebar-secondary">
+                    <div aria-label="article about our latest private tour">
+                        <h2>French Quarter Tour</h2>
+                        <p aria-label="description of the tour">Our latest tour featured one of the biggest attractions in New Orleans- the French Quarter. The French Quarter is the city’s historic heart, famous for its vibrant nightlife and colorful buildings with cast-iron balconies. Crowd-pleasing Bourbon Street features jazz clubs, Cajun eateries and raucous bars serving potent cocktails. Our tour of the French Quarter started at <span>Cafe Du Monde</span> where we had the New Orleans famous beignets with chicory coffee. It was a breakfast like...</p>
                     </div>
-                        <a href="blog-post.html" class="article-link"><strong>Read more about our tour >>></strong></a>
-                </article>
+                    <a href="blog-post.html" class="article-link"><strong>Read more about our tour >>></strong></a>
+                </aside>
 
-                <figure class="ad">
-                    <a href="https://www.yatra.com/offer/dom/listing/domestic-flight-deals"><img src="img/8466472575_dcdec2dcb6_m.jpg" alt="Yatra.com, promo offer" class="promo"></a>
-                    <figcaption>Yatra.com, via Flickr -
-                        <a href="https://www.flickr.com/search/?text=travel%20coupon">Source</a>
-                    </figcaption>
-                </figure>
+                <aside class="ad" aria-label="sidebar-tertiary">
+                    <figure>
+                        <a href="https://www.yatra.com/offer/dom/listing/domestic-flight-deals"><img src="img/8466472575_dcdec2dcb6_m.jpg" alt="Yatra.com, promo offer" class="promo"></a>
+                        <figcaption aria-label="advertised company's logo">Yatra.com, via Flickr -
+                            <a href="https://www.flickr.com/search/?text=travel%20coupon">Source</a>
+                        </figcaption>
+                    </figure>
+                </aside>
 
-                <footer class="main-footer">
-                    <p class="footer-paragraph">Copyright 2017 &#169; Louisiana Adventures Ltd. All rights reserved.</p>
+                <footer class="main-footer" aria-label="main-footer">
+                    <p class="footer-paragraph" aria-label="contentinfo">Copyright 2017 &#169; Louisiana Adventures Ltd. All rights reserved.</p>
                 </footer>
 
             </div>

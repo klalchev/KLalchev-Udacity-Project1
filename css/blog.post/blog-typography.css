@@ -10,11 +10,15 @@ figcaption {
 
 footer {
     text-decoration: underline;
-    font-size: 0.7em;
+    font-size: 0.6em;
 }
 
 h1,h2,h3,h4,h5,h6 {
     text-align: center;
+}
+
+.recent-blog-posts {
+    text-align: left;
 }
 
 p {

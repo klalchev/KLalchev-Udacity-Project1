@@ -1,59 +1,61 @@
 ul {
-list-style-type: none;
+  list-style-type: none;
 }
 
 .nav-links {
-    color: black;
+  color: black;
 }
 
 .nav-links:hover {
-    color: #005200;
+  color: #fff;
 }
 
 .about-me, .about-company {
-    background-color: darkgreen;
-    color: #fff;
-    padding: 5px;
-    border-radius: 10px;;
+  background-color: darkgreen;
+  color: #fff;
+  padding: 5px;
+  border-radius: 10px;;
 }
 
 .about-me:hover {
-    color: yellowgreen;
+  color: yellowgreen;
 }
 
 .about-company:hover {
-    color: yellowgreen;
+  color: yellowgreen;
 }
 
 .article-link {
-    color: black;
+  color: black;
 }
 
 .article-link:hover {
-    color: #005200;
+  color: #fff;
 }
 
 .card-container {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    border: 1px solid black;
-  }
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border: 1px solid black;
+}
 
 .card-container:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
 
 .card {
-    padding: 2px 16px;
+  padding: 2px 10px;
+  font-size: 0.9em;
+  text-align: center;
   }
 
-  .avatar {
-      background-color: grey;
-      display: block;
+.avatar {
+  background-color: grey;
+  display: block;
   }
 
-  .container {
-    padding: 12px 26px;
+.container {
+  padding: 12px 26px;
   }
 
 .skip-link {
@@ -70,6 +72,9 @@ list-style-type: none;
 }
 
 .skip-link {
-  /* Same as  before */
   transition: transform 0.3s;
+}
+
+.one {
+  border-bottom: 1px solid black;
 }

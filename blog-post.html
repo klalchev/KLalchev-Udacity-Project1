@@ -4,45 +4,34 @@
         <title>Louisiana Adventures: Blog Posts</title>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial scale=1">
-        <link href="css/blog.post/grid.flex.blog-post.css" type="text/css" rel="stylesheet" />
-        <link href="css/blog.post/avatar.css" type="text/css" rel="stylesheet" />
-        <link href="css/blog.post/logo-blog.css" type="text/css" rel="stylesheet" />
-        <link href="css/blog.post/elements-blog.css" type="text/css" rel="stylesheet" />
-        <link href="css/blog.post/images.css" type="text/css" rel="stylesheet" />
-        <link href="css/blog.post/blog-typography.css" type="text/css" rel="stylesheet" />
-        <link href="css/blog.post/blog-colors.css" type="text/css" rel="stylesheet" />
+        <link href="css/blog.post/main-blog.css" type="text/css" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
+
     <body>
-
+<!--Empty lines indicate landmarks breaks-->
         <div class="flex-wrapper">
-
             <div class="wrapper">
 
-                <header class="main-head">
+                <header class="main-head" aria-label="main-header">
                     <a class="skip-link" href="#main">Skip to content</a>
-
                     <div class="header-wrapper">
-
-                        <div class="logo-wrapper">
-                            <img src="img/company-logo.png" alt="Louisiana Adventures logo" class="logo">
+                        <div class="logo-wrapper" aria-label="wrapper of company logo and heading">
+                            <img src="img/company-logo.png" alt="company-logo" class="logo">
                             <h1>Louisiana Adventures</h1>
                         </div>
-
-                        <div class="avatar-wrapper">
+                        <div class="avatar-wrapper" aria-label="info about the blog author">
                             <img src="img/avatar.png" alt="Author avatar" class="avatar">
-                            <div class="avatar-info">
-                            <h2>Kostadin Lalchev</h2>
-                            <p class="avatar-paragraph">CEO of Louisiana Adventures</p>
+                            <div class="avatar-info" aria-label="blog author">
+                                <h2>Kostadin Lalchev</h2>
+                                <p class="avatar-paragraph" aria-label="title">CEO of Louisiana Adventures</p>
                             </div>
                         </div>
-
                     </div>
-
                 </header>
 
-                <nav class="main-nav">
+                <nav class="main-nav" aria-label="primary navigation">
                     <ul>
                         <li><a class="nav-links" href="index.html">Home</a></li>
                         <li><a class="nav-links" href="#">Book a tour</a></li>
@@ -51,124 +40,104 @@
                     </ul>
                 </nav>
 
-                <main id="main" class="content">
-
-                        <article class="main-article">
-
-                        <h2 class="article-heading">New Orleans French Quarter Tour</h2>
-
+                <main id="main" class="content" aria-label="main-content">
+                    <article class="main-article" aria-label="blog article">
+                        <h2 class="article-heading">French Quarter Tour</h2>
                         <div class="section-one">
-
-                            <section class="story1 align">
-                                <div class="one">
-                                <h3>Cafe Du Monde</h3>
-                                <p>Our latest tour featured one of the biggest attractions in New Orleans- the French Quarter. The French Quarter is the city’s historic heart, famous for its vibrant nightlife and colorful buildings with cast-iron balconies. Crowd-pleasing Bourbon Street features jazz clubs, Cajun eateries and raucous bars serving potent cocktails. Our tour of the French Quarter started at <span>Cafe Du Monde</span> where we had the New Orleans famous beignets with chicory coffee. It was a breakfast like no other- mouth- watering, deeply- fried, fluffy pieces of dough topped with powdered sugar (lots of it!), served with the extra- strong, slightly woody and nutty flavor of the <span title="woody, perennial herbaceous plant"> chicory </span> coffee, which, by the way, one can only find in New Orleans,- a mix of many cultures and <b>a true taste of Louisiana!</b> Cafe du Monde is a true New Orleans landmark and tourist destination, but also locals' favourite, located on Decatur Street right next to the mighty Mississippi river. Established in 1862, Cafe Du Monde is one of the oldest coffee stands in New Orleans, open 24 hours a day, seven days a week.</p>
+                            <section class="story1 align" aria-label="blog article- part one">
+                                <div class="text-border">
+                                    <h3>Cafe Du Monde</h3>
+                                    <p aria-label="short summary of our first stop">Our latest tour featured one of the biggest attractions in New Orleans- the French Quarter. The French Quarter is the city’s historic heart, famous for its vibrant nightlife and colorful buildings with cast-iron balconies. Crowd-pleasing Bourbon Street features jazz clubs, Cajun eateries and raucous bars serving potent cocktails. Our tour of the French Quarter started at <span>Cafe Du Monde</span> where we had the New Orleans famous beignets with chicory coffee. It was a breakfast like no other- mouth- watering, deeply- fried, fluffy pieces of dough topped with powdered sugar (lots of it!), served with the extra- strong, slightly woody and nutty flavor of the <span title="woody, perennial herbaceous plant"> chicory </span> coffee, which, by the way, one can only find in New Orleans,- a mix of many cultures and <b>a true taste of Louisiana!</b> Cafe du Monde is a true New Orleans landmark and tourist destination, but also locals' favourite, located on Decatur Street right next to the mighty Mississippi river. Established in 1862, Cafe Du Monde is one of the oldest coffee stands in New Orleans, open 24 hours a day, seven days a week.</p>
                                 </div>
-                                <figure class="two">
+                                <figure>
                                     <img src="img/640px-Cafe_du_Monde_French_Quarter_-_Tiger_Rag_01.jpg" alt="Cafe Du Monde" class="image">
-                                    <figcaption>Cafe Du Monde Infrogmation of New Orleans - Own work, CC BY-SA 4.0, via Wikimedia Commons -
-                                        <a href="https://commons.wikimedia.org/w/index.php?curid=85882867" title="Go to Wikimedia Commons">Source</a>
+                                    <figcaption aria-label="image author">Cafe Du Monde Infrogmation of New Orleans - Own work, CC BY-SA 4.0, via Wikimedia Commons -
+                                        <a href="https://commons.wikimedia.org/w/index.php?curid=85882867" aria-label="link to the image host site">Source</a>
                                     </figcaption>
                                 </figure>
                             </section>
-
-                            <hr class="hide">
-
+                            <hr class="hide" aria-label="thematic break between article parts">
                         </div>
 
                         <div class="section-two">
-                            <section class="story2 align">
-                                <div>
-                                <h3>St. Louis Cathedral</h3>
-                                <p>In our next stop, we visited the St. Louis Cathedral- one of the biggest landmarks in the French Quarter. The Cathedral-Basilica of Saint Louis, King of France, also called St. Louis Cathedral (French: Cathédrale Saint-Louis, Roi-de-France, Spanish: Catedral de San Luis), is the seat of the Roman Catholic Archdiocese of New Orleans and is the oldest cathedral in continuous use in what would become the United States. It is dedicated to Saint Louis, also known as King Louis IX of France. The first church on the site was built in 1718; the third, under the Spanish rule, built in 1789, was raised to cathedral rank in 1793. The original St. Louis Cathedral was burned during the great fire of 1788 and was expanded and largely rebuilt and completed in the 1850s, with little of the 1789 structure remaining. Saint Louis Cathedral is located next to Jackson Square and facing the Mississippi River in the heart of New Orleans, situated between the historic buildings of the Cabildo and the Presbytère. It has been seen in hundreds of movies, TV shows and other visual presentations.</p>
+                            <section class="story2 align" aria-label="blog article- part two">
+                                <div class="text-border">
+                                    <h3>St. Louis Cathedral</h3>
+                                    <p arial-label="short description of our second stop">In our next stop, we visited the St. Louis Cathedral- one of the biggest landmarks in the French Quarter. The Cathedral-Basilica of Saint Louis, King of France, also called St. Louis Cathedral (French: Cathédrale Saint-Louis, Roi-de-France, Spanish: Catedral de San Luis), is the seat of the Roman Catholic Archdiocese of New Orleans and is the oldest cathedral in continuous use in what would become the United States. It is dedicated to Saint Louis, also known as King Louis IX of France. The first church on the site was built in 1718; the third, under the Spanish rule, built in 1789, was raised to cathedral rank in 1793. The original St. Louis Cathedral was burned during the great fire of 1788 and was expanded and largely rebuilt and completed in the 1850s, with little of the 1789 structure remaining. Saint Louis Cathedral is located next to Jackson Square and facing the Mississippi River in the heart of New Orleans, situated between the historic buildings of the Cabildo and the Presbytère. It has been seen in hundreds of movies, TV shows and other visual presentations.</p>
                                 </div>
                                 <figure>
                                     <img src="img/357px-Cathedral-Basilica_of_Saint_Louis,_King_of_France_IMG_6121.jpg" alt="Cathedral- Basilica of Saint Louis, King of France" class="image">
-                                    <figcaption>Cathedral- Basilica of Saint Louis, King of France - By Don McCulley- via Wikimedia Commons -
-                                        <a href="https://commons.wikimedia.org/w/index.php?curid=73876769">Source</a>
+                                    <figcaption aria-label="image author">Cathedral- Basilica of Saint Louis, King of France - By Don McCulley- via Wikimedia Commons -
+                                        <a href="https://commons.wikimedia.org/w/index.php?curid=73876769" aria-label="link to the image host site">Source</a>
                                     </figcaption>
                                 </figure>
                             </section>
-
-                            <hr class="hide">
-
+                            <hr class="hide" aria-label="thematic break between article parts">
                         </div>
 
                         <div class="section-three">
-                            <section class="story3 align">
-                                <div>
+                            <section class="story3 align" aria-label="blog article- part three">
+                                <div class="text-border">
                                     <h3>Bourbon Street</h3>
-                                    <p>In our last stop, we toured the famous <em>Bourbon Street</em>. Bourbon Street <u>(French: Rue Bourbon, Spanish: Calle de Borbón)</u> is a historic street in the heart of the French Quarter of New Orleans. Extending thirteen blocks from Canal Street to Esplanade Avenue, Bourbon Street is famous for its many bars and strip clubs.<i> With 17.74 million visitors in 2017 alone, New Orleans depends on Bourbon Street as a main tourist attraction</i>, which provides a rich insight into New Orleans' past. If it is true that <q cite="https://www.goodreads.com/quotes/tag/new-orleans">America has only three cities: New York, San Francisco, and New Orleans</q>, then Bourbon Street is the soul of America.</p>
-                                    <h4>The Funky Pirate Bar</h4>
-                                    <p>During our tour of Bourbon Street, we visited "The Funky Pirate Bar" famous for its live jazz music and signature cocktail- <i>"Handgrenade"</i>. Rated 5 stars by Trip Advisor, a beloved filming location of popular tv shows such as True Blood and The Originals, The Funky Pirate Bar is one of the busiest bars in town and my personal favourite as well!</p>
+                                    <p aria-label="short description of our last stop">In our last stop, we toured the famous <em>Bourbon Street</em>. Bourbon Street <u>(French: Rue Bourbon, Spanish: Calle de Borbón)</u> is a historic street in the heart of the French Quarter of New Orleans. Extending thirteen blocks from Canal Street to Esplanade Avenue, Bourbon Street is famous for its many bars and strip clubs.<i> With 17.74 million visitors in 2017 alone, New Orleans depends on Bourbon Street as a main tourist attraction</i>, which provides a rich insight into New Orleans' past. If it is true that <q cite="https://www.goodreads.com/quotes/tag/new-orleans">America has only three cities: New York, San Francisco, and New Orleans</q>, then Bourbon Street is the soul of America.</p>
+                                    <section aria-label="subsection of blog article- parth three">
+                                        <h4>The Funky Pirate Bar</h4>
+                                        <p aria-label="short description of the bar">During our tour of Bourbon Street, we visited "The Funky Pirate Bar" famous for its live jazz music and signature cocktail- <i>"Handgrenade"</i>. Rated 5 stars by Trip Advisor, a beloved filming location of popular tv shows such as True Blood and The Originals, The Funky Pirate Bar is one of the busiest bars in town and my personal favourite as well!</p>
+                                    </section>
                                 </div>
                                 <figure>
                                     <img src="img/640px-Come_On_In!_-_Funky_Pirate,_Bourbon_Street.jpg" alt="The Funky Pirate Bar" class="image">
-                                    <figcaption>The Funky Pirate Bar, French Quarter - By Gary J. Wood - Own work, CC0, via Wikimedia -
-                                        <a href="https://commons.wikimedia.org/w/index.php?curid=86136910">Source</a>
+                                    <figcaption aria-label="image author">The Funky Pirate Bar, French Quarter - By Gary J. Wood - Own work, CC0, via Wikimedia -
+                                        <a href="https://commons.wikimedia.org/w/index.php?curid=86136910" aria-label="link to the image host site">Source</a>
                                     </figcaption>
                                 </figure>
                             </section>
-
-                            <hr class="hide">
-
+                            <hr class="hide" aria-label="thematic break">
                         </div>
 
-                        <section class="section-four">
-
+                        <section class="section-four" aria-label="blog article- part four">
                             <h3>Famous Quotes:</h3>
-                            <p>If you are still not sure about visiting New Orleans, here are a few quotes to inspire you:</p>
-
-                            <blockquote cite="https://www.azquotes.com/quotes/topics/french-quarter.html">French Quarter Quotes. There are only two things: love, all sorts of love, with pretty girls, and the music of New Orleans or Duke Ellington. Everything else ought to go, because everything else is ugly. I think New Orleans is such a beautiful city.
-                                <footer>
+                            <p aria-label="inspirational quotes about New Orleans">If you are still not sure about visiting New Orleans, here are a few quotes to inspire you:</p>
+                            <blockquote cite="https://www.azquotes.com/quotes/topics/french-quarter.html" aria-label="first quote"> There are only two things: love, all sorts of love, with pretty girls, and the music of New Orleans or Duke Ellington. Everything else ought to go, because everything else is ugly. I think New Orleans is such a beautiful city.
+                                <footer aria-label="quote author">
                                     <cite>- Boris Vian</cite>
                                 </footer>
                             </blockquote>
-
-                            <hr>
-
-                            <blockquote cite="https://www.goodreads.com/quotes/tag/new-orleans">New Orleans food is as delicious as the less criminal forms of sin.
-                                <footer>
+                            <hr aria-label="empty line between quotes">
+                            <blockquote cite="https://www.goodreads.com/quotes/tag/new-orleans" aria-label="second quote">New Orleans food is as delicious as the less criminal forms of sin.
+                                <footer aria-label="quote author">
                                     <cite>- Mark Twain</cite>
                                 </footer>
                             </blockquote>
-
-                            <hr>
-
-                            <blockquote cite="https://www.azquotes.com/quote/1446734?ref=french-quarter">When you set a play in the French Quarter in New Orleans, it's hard not to acknowledge the whole African-American, French, white mixing of races. That's what the French Quarter is: it's a Creole community.
-                                <footer>
+                            <hr aria-label="empty line between quotes">
+                            <blockquote cite="https://www.azquotes.com/quote/1446734?ref=french-quarter" aria-label="third quote">When you set a play in the French Quarter in New Orleans, it's hard not to acknowledge the whole African-American, French, white mixing of races. That's what the French Quarter is: it's a Creole community.
+                                <footer aria-label="quote author">
                                     <cite>- Nicole Ari Parker</cite>
                                 </footer>
                             </blockquote>
-
-                            <hr>
-
-                            <blockquote cite="https://www.azquotes.com/quote/1371846?ref=french-quarter">New Orleans is 5 feet below sea level, which means that holes dug in the ground immediately fill with water. Coffins were punctured and sunk with weights, which didn't stop them from floating up out of the cemeteries and down the streets of the French Quarter on stormy nights. The solution was to bury people above ground, in what are called vaults.
-                                <footer>
+                            <hr arial-label="empty line between quotes">
+                            <blockquote cite="https://www.azquotes.com/quote/1371846?ref=french-quarter" aria-label="fourth quote">New Orleans is 5 feet below sea level, which means that holes dug in the ground immediately fill with water. Coffins were punctured and sunk with weights, which didn't stop them from floating up out of the cemeteries and down the streets of the French Quarter on stormy nights. The solution was to bury people above ground, in what are called vaults.
+                                <footer aria-label="quote author">
                                     <cite>- James Cagney</cite>
                                 </footer>
                             </blockquote>
-
                         </section>
-
                     </article>
 
-                    <aside class="main-aside">
-
-                        <article class="aside-one">
+                    <aside class="main-aside" aria-label="sidebar">
+                        <section class="aside-one" aria-label="sidebar subsection one">
                             <h2>Recent Blog Posts:</h2>
                             <ul>
-                                <li><a href="#">Lafayette- The Swamp Tour- Meeting the Gators</a></li><br>
-                                <li><a href="#">Baton Rouge- LSU- Joe Burrow's University</a></li><br>
-                                <li><a href="#">Mandeville- Lake Ponchantrain- World's longest bridge</a></li><br>
-                                <li><a href="#">Avery Island- Mcllhenny Co.- Tabasco Hot Sauce</a></li><br>
-                                <li><a href="#">Grandisle- Deep in the Gulf- The Fishing Paradise</a></li>
+                                <li><article aria-label="first article"><h3 class="recent-blog-posts"><a href="#">Lafayette- The Swamp Tour- Meeting the Gators</a></h3></article></li>
+                                <li><article aria-label="second article"><h3 class="recent-blog-posts"><a href="#">Baton Rouge- LSU- Joe Burrow's University</a></h3></article></li>
+                                <li><article aria-label="third article"><h3 class="recent-blog-posts"><a href="#">Mandeville- Lake Ponchantrain- World's longest bridge</a></h3></article></li>
+                                <li><article aria-label="fourth article"><h3 class="recent-blog-posts"><a href="#">Avery Island- Mcllhenny Co.- Tabasco Hot Sauce</a></h3></article></li>
+                                <li><article aria-label="fifth article"><h3 class="recent-blog-posts"><a href="#">Grandisle- Deep in the Gulf- The Fishing Paradise</a></h3></article></li>
                             </ul>
-                        </article>
-
-                        <section class="aside-two">
+                        </section>
+                        <section class="aside-two" aria-label="sidebar subsection two">
                             <h2>Never Miss a Post:</h2>
-                            <form action="">
+                            <form action="" aria-label="blog subscribe form">
                                 <label for="name">Enter Your Name:</label>
                                 <input type="text" id="name" placeholder="John" required><br><br>
                                 <label for="email">Enter Your Email:</label>
@@ -176,28 +145,25 @@
                                 <input type="submit" value="SUBSCRIBE NOW!">
                             </form>
                         </section>
-
-                        <section class="aside-three">
-                            <ul class="social">
-                                <li><a href="#" class="fa fa-facebook"></a></li>
-                                <li><a href="#" class="fa fa-twitter"></a></li>
-                                <li><a href="#" class="fa fa-google"></a></li>
-                                <li><a href="#" class="fa fa-linkedin"></a></li>
+                        <section class="aside-three" aria-label="sidebar subsection three">
+<!--social links to be styled with w3school design system- see link in the head-->
+                            <ul class="social" aria-label="social media share links">
+                                <li><a href="#" class="fa fa-facebook" aria-label="facebook share link"></a></li>
+                                <li><a href="#" class="fa fa-twitter" aria-label="twitter share link"></a></li>
+                                <li><a href="#" class="fa fa-google" aria-label="google share link"></a></li>
+                                <li><a href="#" class="fa fa-linkedin" aria-label="linkedIn share link"></a></li>
                             </ul>
                         </section>
-
                     </aside>
 
                 </main>
 
-                <footer class="main-footer">
-                    <p>Copyright 2017 &#169; Louisiana Adventures Ltd. All rights reserved.</p>
+                <footer class="main-footer" aria-label="main-footer">
+                    <p aria-label="contentinfo">Copyright 2017 &#169; Louisiana Adventures Ltd. All rights reserved.</p>
                 </footer>
 
             </div>
-
         </div>
 
     </body>
-
 </html>
