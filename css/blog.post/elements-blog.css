@@ -166,3 +166,10 @@ span {
 .text-border {
   border-bottom: 1px solid black;
 }
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
